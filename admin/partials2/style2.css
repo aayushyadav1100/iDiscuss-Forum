@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Lexend Deca Light"; 
+}
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background-color: #262e33;
+    height: 80px;
+    width: 100%;
+    position: static;
+}
+
+label.logo2{
+    color: #3cffff;
+    font-size: 32px;
+    line-height: 80px;
+    padding: 0 100px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;    
+}
+
+p,a,li{
+    font-size: 1.7rem;
+    color: #20262E;
+    overflow-x: hidden;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-bars{
+    font-size: 3.2rem;
+    position: absolute;
+    right: 3%;
+    top: 12%; 
+    position: absolute;
+}
+ 
+
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar{
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+}
+
+.nav-first{
+    width: 50%;
+    max-width: 52rem;
+    min-width: 32rem;
+    background-color: #655DBB;
+
+}
+
+.nav-second{
+    background-color: #3E54AC;
+    width: 95%;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: #ECF2FF;
+}
+
+.navbar-list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    list-style: none;
+}
+
+.navbar-list a{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.navbar-list a:hover{
+    text-decoration: underline;
+    color: #3E54AC;
+}
+
+.active{
+    transform: translateX(0);
+}
+
+.fa-circle-xmark{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    font-size: 3.2rem;
+
+}
+
+
+
+
